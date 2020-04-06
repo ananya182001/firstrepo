@@ -1,0 +1,15 @@
+.big-text
+{
+	font-style: normal;
+	font-size: 70px;
+	margin: 20px 0;
+	color: indigo;
+	font-weight: bold;
+    font-family: "Times New Roman", Times, serif;	 
+}
+.quote
+{
+	font-size: 40px;
+	margin: 16px 0;
+	color: magenta ;
+}

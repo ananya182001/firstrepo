@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>GALLERY</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/sjs/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="resgal.html"><img src="IIITGlogo.jfif"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+	data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Gallery</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Clubs</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Events</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Initiatives</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Hall of Fame</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Facilities</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+
+<!--Heading and quote-->
+<div class="container">
+<div class="row">
+	<div class="col-sm-6">
+		<h1>GALLERY</h1>
+        <p class="big-text">The best thing about memories is making them</p>
+	</div>
+
+	<div class="col-sm-6">
+		<img src="gallerybackgroung.jpg" class="img-responsive">
+	</div>
+</div>
+</div>
+
+<!--Images-->
+<div class="carousel-container">
+	<i class="fas fa-arrow-left" id="prevBtn"></i>
+	<i class="fas fa-arrow-right" id="nextBtn"></i>
+  <div class="carousel-slide">
+  	<img src="gall5.jfif" id="lastClone" alt="">
+  	<img src="gall1.jfif" alt="">
+  	<img src="gall2.jfif" alt="">
+  	<img src="gall3.jfif" alt="">
+  	<img src="gall4.jfif" alt="">
+  	<img src="gall5.jfif" alt="">
+  	<img src="gall1.jfif" id="firstClone" alt="">
+  </div>
+</div>
+
+<script src="app.js"></script>
+<button id="prevBtn">Prev</button>
+<button id="nextBtn">Next</button>
+
+
+</body>
+</html>
